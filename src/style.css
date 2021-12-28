@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&family=Ubuntu:wght@300;500;700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+body {
+    height: 100%;
+    background: url(./img/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.heading {
+    text-align: center;
+    color: #f5f5dc;
+
+    margin: 120px 0;
+    margin-bottom: 0;
+}
+
+.heading img {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+
+.heading h1 {
+    font-family: 'Pushster', cursive;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.heading p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.menu-bar {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.menu-bar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.menu-bar ul li {
+margin: 0 5px;
+}
+
+.menu-bar ul li button {
+padding: 10px 15px;
+border-radius: 10px;
+border: none;
+font-size: 20px;
+font-weight: 500;
+background-color: beige;
+color: gray
+}
+
+.menu-bar ul li button:hover {
+    background-color: rgb(227, 227, 205)
+}
+
+
+
+h2 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(248, 248, 255, 0.578);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.dotted {
+    border: none;
+    border-top: 7px dotted beige;
+    width: 80%;
+}
+
+.menu {
+    
+    margin: 0 auto;
+}
+
+.meal-wrapper {
+    margin: 20px auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.meal-name {
+    font-weight: 600;
+}
+
+.meal-description {
+    margin-top: -10px;
+}
+
+.meal-price-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.meal-price-wrapper p {
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.bold {
+    font-weight: 600;
+}
+
+input[type=text], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  input[type=submit], #submit {
+    background-color: beige;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover, #submit:hover {
+    background-color: rgb(227, 227, 205)
+  }
+
+  form {
+      width: 80%;
+      margin: 50px auto;
+      
+  }
