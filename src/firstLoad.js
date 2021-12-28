@@ -5,7 +5,7 @@ export default function firstLoad() {
     heading.className = "heading"
 
     const img = document.createElement("img")
-    img.src ="../src/img/icon.svg"
+    img.src ="./icon.svg"
     heading.appendChild(img)
 
     const headingWrapper = document.createElement("div")
